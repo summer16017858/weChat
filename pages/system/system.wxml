@@ -1,0 +1,16 @@
+<view class="system">
+  <view class="system-top">
+    
+  </view>
+  <view class="weui-cells weui-cells_after-title">
+      <navigator url="../login/login" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">我的订单</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+      <navigator url="../index/index" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">发布订单</view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+  </view>
+  <button type="warn" bindtap="loginOut">退出登录</button>
+</view>
